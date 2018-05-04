@@ -1,5 +1,5 @@
 
-CFLAGS= -g -Wall -pedantic -std=c11
+CFLAGS= -g -Wall -pedantic -std=gnu11
 
 SOURCE_FILES=main.c test/suite.c slotmachine.c
 

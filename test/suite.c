@@ -2,17 +2,15 @@
 #include "suite.h"
 
 void test_getPseudorandomIntegerForWheel(void){
-    srand(1234);
+    int EXPECTED_MIN = 0;
+    int EXPECTED_MAX = 1;
+    int x;
+    for(int i=0; i<20; i++){
+        x = getPseudorandomIntegerForWheel();
+        assert(x >= EXPECTED_MIN );
+        assert(x <= EXPECTED_MAX );
+    }
 
-    assert(2 == getPseudorandomIntegerForWheel());
-    assert(3 == getPseudorandomIntegerForWheel());
-    assert(3 == getPseudorandomIntegerForWheel());
-    assert(3 == getPseudorandomIntegerForWheel());
-
-    assert(0 == getPseudorandomIntegerForWheel());
-    assert(1 == getPseudorandomIntegerForWheel());
-    assert(3 == getPseudorandomIntegerForWheel());
-    assert(2 == getPseudorandomIntegerForWheel());
 }
 
 void test_getWheelSymbolByInteger(void){

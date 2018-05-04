@@ -1,7 +1,7 @@
 #include "slotmachine.h"
 
 int getPseudorandomIntegerForWheel(){
-    return rand() % 4;
+    return rand() % 2;
 }
 
 char getPrintableWheelSymbolByInteger(int valueAsInt){

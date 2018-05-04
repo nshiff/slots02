@@ -1,0 +1,7 @@
+http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+https://www.slideshare.net/amritayan/test-driven-development-in-c
+https://stackoverflow.com/questions/1102542/how-to-define-an-enumerated-type-enum-in-c
+https://stackoverflow.com/questions/9655202/how-to-convert-integer-to-string-in-c
+https://stackoverflow.com/questions/22924468/sleep-function-in-c11
+https://www.tutorialspoint.com/c_standard_library/c_function_rand.htm
+https://www.tutorialspoint.com/cprogramming/c_structures.htm
