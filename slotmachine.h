@@ -10,5 +10,6 @@
 
 int getPseudorandomIntegerForWheel(void);
 char getPrintableWheelSymbolByInteger(int);
+char* getMessageForVisibleSymbols(char, char, char);
 
 #endif
